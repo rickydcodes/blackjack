@@ -1,0 +1,151 @@
+body {
+  background-color: #FFE5B4;
+}
+
+#main {
+  padding: 300px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+   position: absolute;
+   border: 3px solid black;
+   background-color: aliceblue;
+}
+
+.title {
+   height: 50px;
+   border-bottom: 3px solid black;
+   position: absolute;
+   text-align: center;
+   line-height: 50px;
+   font-family: monospace;
+   font-size: 25px;
+}
+
+#sides {
+  width: 100%;
+  height: 490px;
+  left: 0px;
+  top: 53px;
+   position: absolute;
+   background-color: rgb(3, 78, 0)
+}
+
+.side {
+  padding: 245px 147px;
+    display: block;
+    float: left;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+#buttons {
+    width: 100%;
+    height: 53.5px;
+    border-top: 3px solid black;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+#btnHolder {
+   width: 250px;
+   height: 37px;
+   position: relative;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.btn {
+   padding: 10px 15px;
+   position: relative;
+   float: left;
+   border: none;
+   border-radius: 10px;
+   margin: 2.5px;
+   cursor: pointer;
+   outline: none;
+   font-size: 15px;
+   font-family: monospace;
+   font-weight: bold;
+}
+
+#hitButton {
+   background-color: crimson;
+   color: yellow;
+   display: none;
+   position: relative;
+   left: 65px;
+}
+
+#standButton {
+   background-color: darkblue;
+   color: green;
+   display: none;
+   position: relative;
+   left: 65px;
+}
+
+#dealButton {
+   background-color: darkgray;
+   color: black;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%);
+   display: none;
+}
+
+#playerCards {
+    position: absolute;
+    left: 25px;
+    top: 70px;
+    width: 250px;
+    height: 400px;
+    z-index: 1;
+}
+
+#dealerCards {
+       position: absolute;
+    right: 25px;
+    top: 70px;
+    width: 250px;
+    height: 400px;
+    z-index: 1;
+}
+
+.card {
+   width: 70px;
+   height: 100px;
+   float: left;
+   margin: 5px;
+}
+
+.card > img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  user-select: none;
+}
+
+#moneyParagraph {
+   position: absolute;
+   left: 10px;
+   font-family: monospace;
+}
+
+#betDiv {
+   display: inline-block;
+}
+
+#betInput {
+   padding: 10px 10px;
+}
+
+#placeBetButton {
+   padding: 10px 10px;
+   border: none;
+   border-radius: 10px;
+   background-color: lightgray;
+   cursor: pointer;
+}

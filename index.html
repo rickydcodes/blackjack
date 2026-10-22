@@ -1,0 +1,91 @@
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Black Jack</title>
+      <meta name="viewport" content="width=device-width, initial-scale=0.35">
+      <link href="style.css" rel="stylesheet">
+      <link href="cards/2C.png" rel="prefetch">
+      <link href="cards/2D.png" rel="prefetch">
+      <link href="cards/2H.png" rel="prefetch">
+      <link href="cards/2S.png" rel="prefetch">
+      <link href="cards/3C.png" rel="prefetch">
+      <link href="cards/3D.png" rel="prefetch">
+      <link href="cards/3H.png" rel="prefetch">
+      <link href="cards/3S.png" rel="prefetch">
+      <link href="cards/4C.png" rel="prefetch">
+      <link href="cards/4D.png" rel="prefetch">
+      <link href="cards/4H.png" rel="prefetch">
+      <link href="cards/4S.png" rel="prefetch">
+      <link href="cards/5C.png" rel="prefetch">
+      <link href="cards/5D.png" rel="prefetch">
+      <link href="cards/5H.png" rel="prefetch">
+      <link href="cards/5S.png" rel="prefetch">
+      <link href="cards/6C.png" rel="prefetch">
+      <link href="cards/6D.png" rel="prefetch">
+      <link href="cards/6H.png" rel="prefetch">
+      <link href="cards/6S.png" rel="prefetch">
+      <link href="cards/7C.png" rel="prefetch">
+      <link href="cards/7D.png" rel="prefetch">
+      <link href="cards/7H.png" rel="prefetch">
+      <link href="cards/7S.png" rel="prefetch">
+      <link href="cards/8C.png" rel="prefetch">
+      <link href="cards/8D.png" rel="prefetch">
+      <link href="cards/8H.png" rel="prefetch">
+      <link href="cards/8S.png" rel="prefetch">
+      <link href="cards/9C.png" rel="prefetch">
+      <link href="cards/9D.png" rel="prefetch">
+      <link href="cards/9H.png" rel="prefetch">
+      <link href="cards/9S.png" rel="prefetch">
+      <link href="cards/10C.png" rel="prefetch">
+      <link href="cards/10D.png" rel="prefetch">
+      <link href="cards/10H.png" rel="prefetch">
+      <link href="cards/10S.png" rel="prefetch">
+      <link href="cards/JC.png" rel="prefetch">
+      <link href="cards/JD.png" rel="prefetch">
+      <link href="cards/JH.png" rel="prefetch">
+      <link href="cards/JS.png" rel="prefetch">
+      <link href="cards/QC.png" rel="prefetch">
+      <link href="cards/QD.png" rel="prefetch">
+      <link href="cards/QH.png" rel="prefetch">
+      <link href="cards/QS.png" rel="prefetch">
+      <link href="cards/KC.png" rel="prefetch">
+      <link href="cards/KD.png" rel="prefetch">
+      <link href="cards/KH.png" rel="prefetch">
+      <link href="cards/KS.png" rel="prefetch">
+      <link href="cards/AC.png" rel="prefetch">
+      <link href="cards/AD.png" rel="prefetch">
+      <link href="cards/AH.png" rel="prefetch">
+      <link href="cards/AS.png" rel="prefetch">
+      <script src="script.js" defer></script>
+   </head>
+   <body>
+      <div id="main">
+         <div style="width: 100%; left: 0px; top: 0px;" class="title">Black Jack</div>
+         <div id="sides">
+            <div class="side">
+               <div style="width: 300px; left: 0px; top: 0px; color: darkblue; font-size: 12px; font-weight: bold;" class="title">Player's Score: 0</div>
+               <div id="playerCards"></div>
+            </div>
+            <div class="side">
+               <div style="width: 300px; right: 0px; top: 0px; color: crimson; font-size: 12px; font-weight: bold;" class="title">Dealer's Score: 0</div>
+               <div id="dealerCards"></div>
+            </div>
+         </div>
+         <div id="buttons">
+            <h2 id="moneyParagraph">$100.00</h2>
+            <div id="btnHolder">
+               <button class="btn" id="hitButton">Hit</button>
+               <button class="btn" id="standButton">Stand</button>
+               <button class="btn" id="dealButton">Deal</button>
+               <div id="betDiv">
+                 <input id="betInput" type="number" placeholder="Bet (Minimum $10)">
+                 <button id="placeBetButton">Place bet</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+
